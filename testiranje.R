@@ -19,5 +19,31 @@ tabela
 
 ####################################################################
 
+jaccard
+
+podatki <- read.table("jaccard.txt")
+
+
+
+test <- vegdist(podatki, method = "jaccard", binary = T)
+
+
+
+
+test
+hc <- hclust(test)
+
+
+
+hc
+plot(hc, hang = -1)
+
+
+
+
+
+
+
+
 
 
