@@ -1,4 +1,4 @@
-Projektna_MVA
+Multivariate statistics exercises
 =============
 
-Datoteke za projekt MVA
+Files for the exercises
